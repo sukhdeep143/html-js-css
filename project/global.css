@@ -36,6 +36,8 @@ nav {
 }
 .MainBody{
     background-color: rgb(48, 48, 192);
+ 
+    width: 100%;
     
 }
 
@@ -58,6 +60,58 @@ nav {
     justify-content: center;
     color: rgb(0, 0, 0);
     font-weight: 600;
+}
+
+.Button{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    height: 5rem;
+    
+}
+
+.btn{
+    padding: 15px;
+    border-radius: 10px;
+    border: none;
+    background: green;
+    color: #fff;
+    font-size: 20px;
+    transition: transform 1s ease-in-out, background-color 1s ease-in-out;
+    
+}
+.btn:hover{
+  
+   font-weight: 900 ;
+   transform: scale(1.1);
+    background: rgb(40, 98, 4);
+    color: #fff;
+    
+}
+
+.image{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 10px;
+    
+   
+    
+
+}
+
+.text{
+    color: white;
+    padding: 20px;
+}
+.image img{
+   height: 500px;
+   width: 500px;
+   padding: 50px;
+   border-radius: 20px;
+   background: white;
+
 }
 
 .footer {
